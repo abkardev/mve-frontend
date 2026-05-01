@@ -1,0 +1,565 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "error": "Something went wrong",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "view": "View",
+    "search": "Search",
+    "filter": "Filter",
+    "sort": "Sort",
+    "all": "All",
+    "submit": "Submit",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "close": "Close",
+    "open": "Open",
+    "yes": "Yes",
+    "no": "No",
+    "or": "or",
+    "and": "and"
+  },
+  "nav": {
+    "home": "Home",
+    "vendors": "Vendors",
+    "rfq": "RFQ Board",
+    "chat": "Messages",
+    "dashboard": "Dashboard",
+    "login": "Login",
+    "register": "Register",
+    "logout": "Logout",
+    "profile": "Profile",
+    "settings": "Settings",
+    "categories": "Categories",
+    "pricing": "Pricing"
+  },
+  "auth": {
+    "login": "Login",
+    "register": "Register",
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "name": "Full Name",
+    "forgotPassword": "Forgot Password?",
+    "noAccount": "Don't have an account?",
+    "hasAccount": "Already have an account?",
+    "loginSuccess": "Login successful!",
+    "registerSuccess": "Registration successful!",
+    "logoutSuccess": "Logged out successfully",
+    "selectRole": "I want to",
+    "buyProducts": "Buy Products",
+    "sellProducts": "Sell Products",
+    "buyer": "Buyer",
+    "vendor": "Vendor",
+    "buyerDesc": "Browse vendors, request quotes, and purchase products",
+    "vendorDesc": "Create your store, list products, and receive inquiries"
+  },
+  "home": {
+    "hero": {
+      "title": "B2B Marketplace",
+      "subtitle": "Connect with trusted suppliers and buyers worldwide",
+      "searchPlaceholder": "Search products, vendors, or categories...",
+      "cta": "Get Started"
+    },
+    "featuredVendors": "Featured Vendors",
+    "latestRfqs": "Latest RFQs",
+    "categories": "Popular Categories",
+    "viewAll": "View All"
+  },
+  "vendor": {
+    "store": "Store",
+    "products": "Products",
+    "about": "About",
+    "contact": "Contact",
+    "verified": "Verified",
+    "responseRate": "Response Rate",
+    "responseTime": "Response Time",
+    "yearsInBusiness": "Years in Business",
+    "mainProducts": "Main Products",
+    "contactVendor": "Contact Vendor",
+    "viewStore": "View Store",
+    "noProducts": "No products available",
+    "productCount": "{{count}} Products"
+  },
+  "product": {
+    "price": "Price",
+    "moq": "Min. Order",
+    "addToInquiry": "Add to Inquiry",
+    "specifications": "Specifications",
+    "description": "Description",
+    "relatedProducts": "Related Products"
+  },
+  "rfq": {
+    "title": "Request for Quotation",
+    "createRfq": "Post RFQ",
+    "createTitle": "Post a New RFQ",
+    "createDescription": "Describe what you need and receive quotes from verified suppliers",
+    "createSuccess": "RFQ posted successfully!",
+    "createSuccessDesc": "Vendors can now view and respond to your request",
+    "createError": "Failed to post RFQ. Please try again.",
+    "myRfqs": "My RFQs",
+    "browseRfqs": "Browse RFQs",
+    "rfqTitle": "Title",
+    "description": "Description",
+    "quantity": "Quantity",
+    "unit": "Unit",
+    "budget": "Budget Range",
+    "deadline": "Deadline",
+    "category": "Category",
+    "attachments": "Attachments",
+    "destinationPort": "Destination Port",
+    "responses": "Responses",
+    "respond": "Respond to RFQ",
+    "submitResponse": "Submit Response",
+    "quotedPrice": "Quoted Price",
+    "message": "Message",
+    "form": {
+      "titleEn": "Title (English)",
+      "titleAr": "Title (Arabic)",
+      "titlePlaceholder": "e.g., Looking for 1000 units of cotton fabric",
+      "titleArPlaceholder": "e.g., أبحث عن 1000 وحدة من القماش القطني",
+      "descriptionEn": "Description (English)",
+      "descriptionAr": "Description (Arabic)",
+      "descriptionPlaceholder": "Describe your requirements in detail...",
+      "descriptionArPlaceholder": "صف متطلباتك بالتفصيل: المواصفات، معايير الجودة، متطلبات التسليم...",
+      "optionalArabic": "Optional - helps reach Arabic-speaking vendors",
+      "quantity": "Quantity",
+      "unit": "Unit",
+      "selectUnit": "Select unit",
+      "budget": "Budget Range",
+      "minBudget": "Minimum",
+      "maxBudget": "Maximum",
+      "budgetDescription": "Optional - specify your budget range per unit",
+      "deadline": "Response Deadline",
+      "deadlineDescription": "Last date to receive vendor quotes",
+      "attachments": "Attachments",
+      "attachmentsDescription": "Upload specifications, images, or documents to help vendors understand your requirements",
+      "category": "Category",
+      "selectCategory": "Select a category",
+      "categoriesError": "Failed to load categories",
+      "destinationPort": "Destination Port",
+      "destinationPortPlaceholder": "e.g., Jeddah Islamic Port, Port of Rotterdam",
+      "destinationPortDescription": "Optional - specify the port for shipping delivery",
+      "submit": "Post RFQ",
+      "budgetValidation": "Maximum budget must be greater than or equal to minimum",
+      "sectionsComplete": "complete",
+      "errors": "errors",
+      "steps": {
+        "title": "Title",
+        "description": "Description",
+        "category": "Category",
+        "quantity": "Quantity",
+        "budget": "Budget",
+        "deadline": "Deadline",
+        "shipping": "Shipping",
+        "attachments": "Files"
+      }
+    },
+    "preview": {
+      "title": "Review Your RFQ",
+      "draft": "Draft",
+      "backToEdit": "Back to Edit",
+      "confirm": "Submit RFQ",
+      "showPreview": "Preview & Submit"
+    },
+    "draft": {
+      "saved": "Draft Saved",
+      "savedDescription": "Your progress has been saved locally",
+      "found": "Draft Found",
+      "foundDescription": "You have an unsaved draft. Would you like to continue editing?",
+      "continue": "Continue Draft",
+      "discard": "Start Fresh",
+      "saveDraft": "Save Draft",
+      "autoSaved": "Auto-saved",
+      "autoSavedDescription": "Your changes have been saved",
+      "saving": "Saving...",
+      "lastSaved": "Last saved"
+    },
+    "status": {
+      "open": "Open",
+      "in_progress": "In Progress",
+      "closed": "Closed",
+      "expired": "Expired"
+    },
+    "noRfqs": "No RFQs found",
+    "responseSuccess": "Response submitted successfully!"
+  },
+  "fileUpload": {
+    "dropHere": "Drop files here",
+    "orClickToBrowse": "or click to browse",
+    "uploading": "Uploading...",
+    "maxSize": "Max {{size}}MB per file",
+    "maxFiles": "Up to {{max}} files",
+    "invalidType": "File type not allowed",
+    "tooLarge": "File is too large (max {{size}}MB)",
+    "maxFilesReached": "Maximum {{max}} files allowed",
+    "uploadFailed": "Upload failed, please try again"
+  },
+  "units": {
+    "pieces": "Pieces",
+    "kg": "Kilograms",
+    "tons": "Tons",
+    "meters": "Meters",
+    "liters": "Liters",
+    "boxes": "Boxes",
+    "pallets": "Pallets",
+    "containers": "Containers"
+  },
+  "chat": {
+    "title": "Messages",
+    "newMessage": "New Message",
+    "typeMessage": "Type a message...",
+    "send": "Send",
+    "noChats": "No conversations yet",
+    "startChat": "Start a conversation",
+    "online": "Online",
+    "offline": "Offline",
+    "typing": "typing...",
+    "delivered": "Delivered",
+    "read": "Read"
+  },
+  "dashboard": {
+    "welcome": "Welcome back",
+    "overview": "Overview",
+    "analytics": "Analytics",
+    "orders": "Orders",
+    "products": "Products",
+    "rfqs": "RFQs",
+    "messages": "Messages",
+    "settings": "Settings",
+    "buyer": {
+      "title": "Buyer Dashboard",
+      "myRfqs": "My RFQs",
+      "myInquiries": "My Inquiries",
+      "savedVendors": "Saved Vendors"
+    },
+    "vendor": {
+      "title": "Vendor Dashboard",
+      "storeSettings": "Store Settings",
+      "manageProducts": "Manage Products",
+      "receivedRfqs": "Received RFQs",
+      "performance": "Performance"
+    },
+    "admin": {
+      "title": "Admin Dashboard",
+      "users": "Users",
+      "vendors": "Vendors",
+      "categories": "Categories",
+      "reports": "Reports"
+    }
+  },
+  "footer": {
+    "about": "About Us",
+    "contact": "Contact",
+    "terms": "Terms of Service",
+    "privacy": "Privacy Policy",
+    "help": "Help Center",
+    "copyright": "© 2024 B2B Marketplace. All rights reserved."
+  },
+  "pages": {
+    "help": {
+      "title": "Help Center",
+      "subtitle": "Find answers to common questions or reach out to our support team for assistance.",
+      "stillNeedHelp": "Still have questions?",
+      "faq": {
+        "gettingStarted": {
+          "title": "Getting Started",
+          "q1": "How do I create an account?",
+          "a1": "Click \"Register\" in the top navigation, choose your role (Buyer or Vendor), and fill in your details. You'll receive a confirmation email to verify your account.",
+          "q2": "What's the difference between a Buyer and Vendor account?",
+          "a2": "Buyers can browse vendors, request quotes, and purchase products. Vendors can create stores, list products, and respond to RFQs.",
+          "q3": "How do I switch between Buyer and Vendor roles?",
+          "a3": "Contact our support team to request a role change. We'll verify your information and update your account accordingly."
+        },
+        "rfq": {
+          "title": "RFQ (Request for Quotation)",
+          "q1": "How do I post an RFQ?",
+          "a1": "Navigate to the RFQ Board and click \"Post RFQ\". Fill in the product details, quantity, budget range, and deadline. Vendors will then be able to view and respond to your request.",
+          "q2": "Can I save my RFQ as a draft?",
+          "a2": "Yes! Your RFQ is automatically saved as a draft as you fill in the form. You can also manually save and return to it later.",
+          "q3": "How long do vendors have to respond?",
+          "a3": "Vendors can respond until the deadline you set when creating the RFQ. After the deadline, the RFQ status changes to \"Expired\"."
+        },
+        "trust": {
+          "title": "Trust & Safety",
+          "q1": "How are vendors verified?",
+          "a1": "We verify vendors through business documentation, trade licenses, and quality certifications. Verified vendors display a badge on their profile.",
+          "q2": "What if I have a dispute with a vendor?",
+          "a2": "Contact our support team with the details of your dispute. We'll mediate between both parties to reach a fair resolution."
+        },
+        "shipping": {
+          "title": "Shipping & Delivery",
+          "q1": "How is shipping handled?",
+          "a1": "Shipping terms are negotiated between buyers and vendors. You can specify your preferred destination port and Incoterms when creating an RFQ.",
+          "q2": "Can I track my shipment?",
+          "a2": "Tracking details are provided by the vendor once the order is shipped. You can view tracking information in your dashboard."
+        },
+        "payments": {
+          "title": "Payments",
+          "q1": "What payment methods are accepted?",
+          "a1": "Payment terms are agreed upon between buyers and vendors. Common methods include bank transfer, letter of credit, and trade assurance.",
+          "q2": "Is there buyer protection?",
+          "a2": "We offer buyer protection on verified transactions. Contact support for details on our protection policies."
+        }
+      }
+    },
+    "contact": {
+      "title": "Contact Us",
+      "subtitle": "Have a question or need assistance? We'd love to hear from you.",
+      "email": "Email",
+      "phone": "Phone",
+      "address": "Address",
+      "addressValue": "Riyadh, Saudi Arabia",
+      "formTitle": "Send us a message",
+      "nameLabel": "Name",
+      "namePlaceholder": "Your name",
+      "emailLabel": "Email",
+      "subjectLabel": "Subject",
+      "subjectPlaceholder": "How can we help?",
+      "messageLabel": "Message",
+      "messagePlaceholder": "Tell us more...",
+      "sendMessage": "Send Message",
+      "sending": "Sending...",
+      "messageSent": "Message Sent",
+      "messageSentDesc": "We'll get back to you within 24 hours."
+    },
+    "about": {
+      "title": "About Us",
+      "subtitle": "B2B Market is a modern marketplace platform designed to simplify wholesale trade. We connect verified suppliers with buyers worldwide, making sourcing efficient, transparent, and secure.",
+      "missionTitle": "Our Mission",
+      "missionText": "To democratize global trade by providing small and medium businesses with the tools, trust, and network they need to compete in the international marketplace.",
+      "valuesTitle": "What We Stand For",
+      "values": {
+        "0": {
+          "title": "Global Reach",
+          "description": "Connecting buyers and suppliers across borders with a platform built for international trade."
+        },
+        "1": {
+          "title": "Trust & Safety",
+          "description": "Verified vendors, secure transactions, and buyer protection to ensure a safe trading environment."
+        },
+        "2": {
+          "title": "Efficiency",
+          "description": "Streamlined RFQ process, real-time messaging, and smart matching to save you time."
+        },
+        "3": {
+          "title": "Community",
+          "description": "A growing network of trusted businesses building lasting trade relationships."
+        }
+      },
+      "stats": {
+        "vendors": "Vendors",
+        "products": "Products",
+        "countries": "Countries",
+        "rfqs": "RFQs Monthly"
+      }
+    },
+    "categories": {
+      "title": "Categories",
+      "subtitle": "Browse products and vendors by industry category.",
+      "products": "products"
+    },
+    "terms": {
+      "title": "Terms of Service",
+      "lastUpdated": "Last updated: February 2026",
+      "sections": {
+        "0": {
+          "title": "1. Acceptance of Terms",
+          "content": "By accessing and using B2B Market, you agree to be bound by these Terms of Service and all applicable laws and regulations. If you do not agree with any of these terms, you are prohibited from using this platform."
+        },
+        "1": {
+          "title": "2. Account Registration",
+          "content": "To access certain features, you must register for an account. You agree to provide accurate, current, and complete information during registration and to update such information to keep it accurate. You are responsible for safeguarding your password and for all activities that occur under your account."
+        },
+        "2": {
+          "title": "3. User Conduct",
+          "content": "You agree not to use the platform for any unlawful purpose or in any way that could damage, disable, or impair the platform. You must not attempt to gain unauthorized access to any part of the platform, other accounts, or computer systems."
+        },
+        "3": {
+          "title": "4. Vendor Obligations",
+          "content": "Vendors must provide accurate product descriptions, pricing, and availability information. Vendors are responsible for fulfilling orders in a timely manner and maintaining the quality standards represented on the platform."
+        },
+        "4": {
+          "title": "5. Buyer Obligations",
+          "content": "Buyers agree to provide accurate information when submitting RFQs and to honor accepted quotations. Buyers must make payments according to agreed-upon terms and communicate promptly with vendors regarding order details."
+        },
+        "5": {
+          "title": "6. Intellectual Property",
+          "content": "All content on B2B Market, including text, graphics, logos, and software, is the property of B2B Market or its content suppliers. You may not reproduce, distribute, or create derivative works from any content without express written consent."
+        },
+        "6": {
+          "title": "7. Limitation of Liability",
+          "content": "B2B Market acts as a platform connecting buyers and vendors. We do not guarantee the quality, safety, or legality of items listed, the accuracy of listings, or the ability of vendors to sell or buyers to pay. We are not liable for any direct, indirect, incidental, or consequential damages arising from use of the platform."
+        },
+        "7": {
+          "title": "8. Dispute Resolution",
+          "content": "Any disputes arising from the use of this platform shall first be attempted to be resolved through our internal mediation process. If mediation fails, disputes shall be resolved through binding arbitration in accordance with applicable laws."
+        },
+        "8": {
+          "title": "9. Changes to Terms",
+          "content": "We reserve the right to modify these terms at any time. Changes will be effective immediately upon posting. Your continued use of the platform after changes constitutes acceptance of the modified terms."
+        }
+      }
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "lastUpdated": "Last updated: February 2026",
+      "sections": {
+        "0": {
+          "title": "1. Information We Collect",
+          "content": "We collect information you provide directly, such as your name, email address, phone number, and business information during registration. We also collect usage data including pages visited, features used, and interaction patterns to improve our services."
+        },
+        "1": {
+          "title": "2. How We Use Your Information",
+          "content": "We use collected information to provide and maintain our platform, process transactions, communicate with you about services, send promotional materials (with your consent), improve our platform, and comply with legal obligations."
+        },
+        "2": {
+          "title": "3. Information Sharing",
+          "content": "We may share your information with other users as necessary for transactions (e.g., sharing buyer contact information with vendors responding to RFQs). We do not sell your personal information to third parties."
+        },
+        "3": {
+          "title": "4. Data Security",
+          "content": "We implement industry-standard security measures to protect your personal information, including encryption, secure servers, and regular security audits. However, no method of transmission over the Internet is 100% secure."
+        },
+        "4": {
+          "title": "5. Cookies & Tracking",
+          "content": "We use cookies and similar technologies to enhance your experience, analyze platform usage, and deliver targeted content. You can control cookie preferences through your browser settings."
+        },
+        "5": {
+          "title": "6. Data Retention",
+          "content": "We retain your personal information for as long as your account is active or as needed to provide services. You can request deletion of your account and associated data at any time by contacting our support team."
+        },
+        "6": {
+          "title": "7. Your Rights",
+          "content": "You have the right to access, correct, or delete your personal information. You can also object to processing, request data portability, and withdraw consent where applicable. Contact us to exercise these rights."
+        },
+        "7": {
+          "title": "8. International Data Transfers",
+          "content": "Your information may be transferred to and processed in countries other than your own. We ensure appropriate safeguards are in place to protect your information in compliance with applicable data protection laws."
+        },
+        "8": {
+          "title": "9. Changes to This Policy",
+          "content": "We may update this Privacy Policy from time to time. We will notify you of any significant changes by posting the new policy on this page and updating the \"Last updated\" date."
+        },
+        "9": {
+          "title": "10. Contact Us",
+          "content": "If you have questions about this Privacy Policy or our data practices, please contact us at privacy@b2bmarket.com or through our Contact page."
+        }
+      }
+    }
+  },
+  "pricing": {
+    "title": "Plans built for growing B2B sellers",
+    "subtitle": "Lower commission, higher visibility, and stronger tools as you grow. Pay by Visa, MasterCard, or bank transfer.",
+    "compare": "Compare features",
+    "paymentMethods": "Payment methods: Visa, MasterCard, bank transfer",
+    "year": "year",
+    "feature": "Feature",
+    "unlimited": "unlimited",
+    "currentPlan": "Current plan",
+    "subscribeCard": "Subscribe with Visa/MasterCard",
+    "upgradeCard": "Upgrade with Visa/MasterCard",
+    "switchCard": "Switch with Visa/MasterCard",
+    "bankTransfer": "Bank transfer",
+    "commissionBilled": "{{commission}} commission · billed yearly",
+    "savings": "Upgrade from Starter to Growth and save up to ${{amount}}/year on $100k in sales",
+    "plans": { "starter": "Starter", "growth": "Growth", "pro": "Pro" },
+    "badges": { "MOST POPULAR": "MOST POPULAR" },
+    "planFeatures": {
+      "products": "Up to {{count}} products",
+      "commission": "{{commission}} commission per transaction",
+      "featuredPlacement": "Featured placement",
+      "verifiedBadge": "Verified badge",
+      "buyerMessaging": "Buyer messaging + file sharing",
+      "bulkOrderTools": "Bulk order tools",
+      "promotions": "Promotions & discounts",
+      "apiAccess": "API access (ERP integrations)",
+      "multiUser": "Multi-user accounts",
+      "adsTools": "Ads tools"
+    },
+    "features": {
+      "storefront": { "basic_logo_only": "Storefront: basic logo only", "advanced_logo_banners": "Storefront: logo + banners", "full_branding_custom_layout": "Storefront: full branding + custom layout" },
+      "marketAccess": { "domestic_international": "Market access: domestic + international", "global_priority": "Market access: global with priority" },
+      "searchRanking": { "low": "Low search visibility", "medium_priority": "Medium-priority search visibility", "highest": "Highest search visibility" },
+      "analytics": { "orders_basic": "Orders-only analytics", "sales_conversion_advanced": "Sales + conversion analytics", "traffic_behavior_roi_full": "Full traffic, behavior, ROI analytics" },
+      "support": { "standard_24h": "Standard 24h support", "priority_24h": "Priority 24h support", "vip_24h_dedicated_manager": "VIP 24h + dedicated manager support" }
+    },
+    "comparison": {
+      "Yearly price": "Yearly price", "Commission per transaction": "Commission per transaction", "Max product listings": "Max product listings", "Storefront": "Storefront", "Market access": "Market access", "Search ranking": "Search ranking", "Featured placement": "Featured placement", "Verified badge": "Verified badge", "Buyer messaging": "Buyer messaging", "Daily conversation limit": "Daily conversation limit", "Bulk order tools": "Bulk order tools", "Promotions & discounts": "Promotions & discounts", "Analytics": "Analytics", "API access (ERP)": "API access (ERP)", "Multi-user accounts": "Multi-user accounts", "Ads tools": "Ads tools", "Support": "Support"
+    },
+    "values": {
+      "unlimited": "Unlimited", "logo_only": "Logo only", "logo_banners": "Logo + banners", "full_branding_custom_layout": "Full branding + custom layout", "domestic_international": "Domestic + International", "global_with_priority": "Global with priority", "low": "Low", "medium": "Medium", "highest": "Highest", "paid_add_on": "Paid add-on", "included": "Included", "limited_no_files": "Limited (no files)", "full_file_sharing": "Full + file sharing", "priority_inbox": "Priority inbox", "enabled": "Enabled", "advanced_automation": "Advanced automation", "advanced_campaigns": "Advanced campaigns", "orders_only": "Orders only", "sales_conversion": "Sales + conversion", "traffic_behavior_roi": "Traffic, behavior, ROI", "limited": "Limited", "full_access": "Full access", "standard_24h": "Standard 24h", "priority_24h": "Priority 24h", "vip_dedicated_manager": "VIP + dedicated manager"
+    },
+    "trust": {
+      "secure": { "title": "Secure escrow payments", "desc": "Funds held safely until delivery" },
+      "cancel": { "title": "Cancel anytime", "desc": "No long-term contracts" },
+      "commission": { "title": "Lower commission as you grow", "desc": "Pro plan reduces fees to 2-3%" }
+    }
+  },
+  "search": {
+    "resultsFor": "Results for",
+    "noProducts": "No products matched. Try different keywords.",
+    "aiUnderstood": "AI understood"
+  },
+  "escrow": {
+    "paymentSuccess": "Payment submitted successfully",
+    "deliveryConfirmed": "Delivery confirmed! Funds released to seller.",
+    "disputeOpened": "Dispute opened successfully",
+    "orderNotFound": "Order not found",
+    "backToOrders": "Back to Orders",
+    "order": "Order",
+    "placed": "Placed",
+    "orderItems": "Order Items",
+    "qty": "Qty",
+    "total": "Total",
+    "shippingDetails": "Shipping Details",
+    "carrier": "Carrier",
+    "tracking": "Tracking Number",
+    "estimated": "Estimated Delivery",
+    "makePayment": "Make Payment",
+    "paymentSecure": "Payment is held securely in escrow",
+    "paymentMethod": "Payment Method",
+    "bankTransfer": "Bank Transfer",
+    "amount": "Amount",
+    "payNow": "Pay Now (Escrow Protected)",
+    "confirmDelivery": "Confirm Delivery",
+    "confirmDeliveryDesc": "Confirm that you have received the goods. This will release funds to the seller.",
+    "autoRelease": "Auto-release on",
+    "confirmReceived": "Confirm Received",
+    "fundsSecure": "Funds Secured",
+    "fundsSecureDesc": "Your payment is held safely in escrow. The seller has been notified to process your order.",
+    "openDispute": "Open Dispute",
+    "disputeDesc": "Describe the issue with your order. The escrow funds will be frozen during review.",
+    "disputeReason": "Reason",
+    "selectReason": "Select a reason",
+    "notAsDescribed": "Not as described",
+    "defective": "Defective product",
+    "notReceived": "Not received",
+    "wrongItem": "Wrong item",
+    "other": "Other",
+    "description": "Description",
+    "disputePlaceholder": "Describe the issue in detail...",
+    "submitDispute": "Submit Dispute",
+    "myOrders": "My Orders",
+    "trackOrders": "Track your orders and manage payments",
+    "activeOrders": "Active Orders",
+    "completed": "Completed",
+    "disputes": "Disputes",
+    "active": "Active",
+    "disputed": "Disputed",
+    "noOrders": "No orders found",
+    "items": "items",
+    "sellerOrders": "Orders",
+    "sellerOrdersDesc": "Manage orders and update shipping",
+    "awaitingShipment": "Awaiting Shipment",
+    "inTransit": "In Transit",
+    "shipped": "Shipped",
+    "addShipping": "Add Shipping",
+    "updateShipping": "Update Shipping Details",
+    "shippingUpdated": "Shipping details updated",
+    "confirmShipping": "Confirm Shipping"
+  }
+}
