@@ -19,7 +19,8 @@ export function LanguageToggle() {
         <Button
           variant="ghost"
           size="icon"
-          className="relative text-sidebar-foreground/95 hover:bg-sidebar-accent hover:text-sidebar-foreground focus-visible:bg-sidebar-accent focus-visible:ring-sidebar-ring focus-visible:ring-offset-sidebar-background"
+          //className="relative text-black/95 hover:bg-sidebar-accent hover:text-sidebar-foreground focus-visible:bg-sidebar-accent focus-visible:ring-sidebar-ring focus-visible:ring-offset-sidebar-background"
+          className="relative text-black/95 hover:bg-sidebar-accent hover:text-sidebar-foreground "
           aria-label={t('language.toggle', 'Change language')}
         >
           <Globe className="h-5 w-5" />

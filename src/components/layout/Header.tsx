@@ -37,8 +37,8 @@ export function Header() {
     { to: '/dashboard', label: t('nav.dashboard'), icon: LayoutDashboard },
   ];
 
-  const navButtonClass = "h-10 gap-2 px-3 text-sidebar-foreground/95 hover:bg-sidebar-accent hover:text-sidebar-foreground focus-visible:bg-sidebar-accent focus-visible:text-sidebar-foreground focus-visible:ring-sidebar-ring focus-visible:ring-offset-sidebar-background";
-  const iconButtonClass = "text-sidebar-foreground/95 hover:bg-sidebar-accent hover:text-sidebar-foreground focus-visible:bg-sidebar-accent focus-visible:ring-sidebar-ring focus-visible:ring-offset-sidebar-background";
+  const navButtonClass = "h-10 gap-2 px-3 text-black/95 hover:bg-sidebar-accent hover:text-sidebar-foreground focus-visible:bg-sidebar-accent focus-visible:text-sidebar-foreground focus-visible:ring-sidebar-ring focus-visible:ring-offset-sidebar-background";
+  const iconButtonClass = "text-black/95 hover:bg-sidebar-accent hover:text-sidebar-foreground focus-visible:bg-sidebar-accent focus-visible:ring-sidebar-ring focus-visible:ring-offset-sidebar-background";
 
   return (
     <header className="sticky top-0 z-50 w-full border-b border-sidebar-border bg-sidebar-background text-sidebar-foreground shadow-md">
@@ -47,7 +47,7 @@ export function Header() {
           <div className="flex h-10 w-10 items-center justify-center rounded-md bg-primary shadow-sm">
             <Store className="h-5 w-5 text-primary-foreground" />
           </div>
-          <span className="hidden text-xl font-bold tracking-normal text-sidebar-foreground sm:inline-block">B2B Market</span>
+          <span className="hidden text-xl font-bold tracking-normal text-black sm:inline-block">B2B Market</span>
         </Link>
 
         <nav className="hidden md:flex items-center gap-1.5" aria-label="Main navigation">
